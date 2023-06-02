@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import FeaturedItem from "../FeaturedItem/FeaturedItem";
 import MenuItems from "../MenuItems/MenuItems";
 import OrderOnline from "../OrderOnline/OrderOnline";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <OrderOnline></OrderOnline>
             <MenuItems></MenuItems>
             <FeaturedItem></FeaturedItem>
+            <Testimonials></Testimonials>
         </div>
     );
 };
