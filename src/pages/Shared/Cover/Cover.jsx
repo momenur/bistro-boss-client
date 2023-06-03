@@ -14,6 +14,7 @@ const Cover = ( {img, coverTitle} ) => {
                     <h1 className="mb-5 text-5xl font-semibold uppercase">{coverTitle}</h1>
                     <p className="mb-5">Provident cupiditate voluptatem et in.</p>
                 </div>
+                {/* commit */}
             </div>
         </div>
     </Parallax>
