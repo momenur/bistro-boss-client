@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import '@smastrom/react-rating/style.css'
 
+
 const Testimonials = () => {
 
     const [reviews, setReviews] = useState([]);
@@ -15,7 +16,6 @@ const Testimonials = () => {
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
-    console.log(reviews);
     return (
         <section className="my-20">
             <SectionTitle
@@ -34,9 +34,12 @@ const Testimonials = () => {
                                 <div className="flex justify-center my-8">
                                     <Rating
                                         style={{ maxWidth: 180 }}
+                                        
                                         value={review.rating}
                                         readOnly
                                     />
+                                </div>
+                                <div>
                                 </div>
                                 <p className="">{review.details}</p>
                                 <h1 className="mt-3 text-3xl text-yellow-600">{review.name}</h1>
