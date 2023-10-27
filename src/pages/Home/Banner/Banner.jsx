@@ -3,7 +3,6 @@ import { Carousel } from 'react-responsive-carousel'
 import './Banner.css'
 
 // Slider Image
-
 import s1 from '../../../assets/home/01.jpg'
 import s2 from '../../../assets/home/02.jpg'
 import s3 from '../../../assets/home/03.png'

@@ -7,9 +7,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import '@smastrom/react-rating/style.css'
 
-
 const Testimonials = () => {
-    
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
         fetch('http://localhost:5000/reviews')
@@ -22,10 +20,8 @@ const Testimonials = () => {
                 subTitle="What Our Client Say" title="testimonials"
             >
             </SectionTitle>
-
             <div>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-
                     {
                         reviews.map(review => <SwiperSlide
                             key={review._id}

@@ -7,20 +7,18 @@ import useMenu from "../../../hooks/useMenu";
 import FoodCard from "../../../components/FoodCard/FoodCard";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-const Order = () => {
 
+
+const Order = () => {
     <Helmet>
         <title>Bistro Boss | Order</title>
     </Helmet>
-
+    
     const categorys = ['salad', 'pizza', 'soup', 'dessert', 'drinks']
     const { category } = useParams();
     const initialIndex = categorys.indexOf(category)
     const [tabIndex, setTebIndex] = useState(initialIndex)
     const [menu] = useMenu();
-
-
-
 
     const desserts = menu.filter(item => item.category === 'dessert')
     const soup = menu.filter(item => item.category === 'soup')
