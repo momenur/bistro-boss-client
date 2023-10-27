@@ -1,7 +1,8 @@
 # Bistro boss
 Bistro boss
 
-![Mylogo](https://github.com/sakibhasancse/Chat-with-me/assets/57236854/abf1a81b-a7b0-47cd-a445-96d734684bc3)
+![Mylogo]
+![Uploading 01.jpg…]()
 
 # Features
 ### 1. News Feed Posts
