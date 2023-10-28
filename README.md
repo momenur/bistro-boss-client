@@ -1,8 +1,8 @@
 # Bistro boss
 Bistro boss
 
-![Mylogo]
-![Uploading 01.jpg…]()
+![Mylogo] ![01](https://github.com/momenur/bistro-boss-client/assets/115945613/21b8356d-1924-4022-b8e4-3816dc7251bf)
+
 
 # Features
 ### 1. News Feed Posts
