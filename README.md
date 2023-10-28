@@ -6,32 +6,25 @@ Bistro boss
 
 
 # Features
-### 1. News Feed Posts
-Users can create and view posts on the news feed. Each post can contain text, images, or other media. Users can share updates, thoughts, or important information with their connections.
+### 1. Security && Login
+Enjoy a secure login system with Firebase authentication, email verification, and JWT token for enhanced user security.
 
-### 2. Post Management
-Users have full control over their posts. They can create new posts, update the content of existing posts, and delete posts that are no longer relevant. This feature ensures that users can manage their own content easily.
+### 2. Admin Panel
+Admins can add and manage food items, update user roles (including granting admin privileges), ensuring smooth platform control.
 
-### 3. Messages/Chat
-Users can engage in text-based conversations with their connections using the chat feature. They can send and receive messages in real-time, making it convenient for quick and efficient communication.
-
-### 4. Video Calling
-The app provides a video calling feature that allows users to have face-to-face conversations. They can initiate video calls with their connections, enabling a more personal and interactive communication experience.
-
-### 5. Audio Calling
-In addition to video calling, users can also make audio calls to their connections. This feature is particularly useful in situations where video calling is not feasible or preferred, providing flexibility in communication options.
-
-![chatwithme gift](https://github.com/sakibhasancse/Chat-with-me/assets/57236854/bc6288c0-3a89-411c-9f06-af46b68d9e65)
+### 3. User Panel
+Users can add food on her cart, give a review for share User opinion.
 
 
 # Installation
 Clone the repository:
 
 ```
-git clone https://github.com/sakibhasancse/Chat-with-me.git
+git clone https://github.com/momenur/bistro-boss-client.git
 ```
 #### Prerequisites
 
+- [React](https://react.dev)
 - [Node](https://nodejs.org/en/)
 - [Mongodb](https://www.mongodb.com/)
 
